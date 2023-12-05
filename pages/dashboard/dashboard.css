@@ -1,0 +1,185 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffff;
+}
+/* .container-fluid section div.container div.row {
+  position: fixed;
+  width: 83rem;
+  bottom: 0;
+  top: 57px
+  
+}
+.container-fluid section div.container div.row div.col-9 div.card {
+  position: fixed;
+  width:61rem;
+  bottom: 0;
+  top: 60px
+  
+}.container-fluid section div.container div.row div.col-9 div.card div.chat-display{
+  position: fixed;
+  width:60rem;
+  bottom: 0;
+  top: 74px
+  
+} */
+
+.container-fluid section div.container div.row {
+  /* position: fixed;
+  top: 62px;
+  bottom: 0;
+  width: 83rem; */
+}
+@media (min-width: 992px) {
+  .container-fluid
+    section
+    div.container
+    div.row
+    div.sidebar
+    div#sidebar-wrapper {
+    position: fixed;
+    top: 62px;
+    bottom: 0;
+    transition: all ease-in-out 0.5s;
+    transition: all 0.5s;
+    padding: 0 15px;
+    overflow-y: auto;
+  }
+  #chat-box-window {
+    width: 75%;
+  }
+  #menu-button {
+    display: none;
+  }
+  .container-fluid
+    section
+    div.container
+    div.row
+    div.col
+    div.card
+    #chat-box-window {
+    max-width: 540px;
+    width: 100%;
+  }
+}
+@media (max-width: 1399px) {
+  #chat-box-window {
+    padding-left: 60px;
+  }
+}
+@media (max-width: 1199px) {
+  #chat-box-window {
+    padding-left: 110px;
+  }
+}
+@media (max-width: 992px) {
+  .container-fluid section div.container div.row div.sidebar {
+    display: none;
+  }
+  #chat-box-window {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+.container-fluid
+  section
+  div.container
+  div.row
+  div.sidebar
+  div#sidebar-wrapper
+  div.list-group
+  div#user-list
+  a.list-group-item-action:hover {
+  background: #ffffff !important;
+  transition: all ease-in-out 0.3s;
+  color: black;
+  border: none;
+}
+/* .container-fluid
+  section
+  div.container
+  div.row
+  div.sidebar
+  div#sidebar-wrapper
+  div.list-group
+  div#user-list
+  a.list-group-item-action:active {
+  transition: all ease-in-out 0.7s;
+  color: black;
+  border-radius: 5px;
+} */
+div.card div.chat-display div.text-box form button.btn span {
+  padding: 5px;
+  color: #3d8bff;
+}
+div.card div.chat-display div.text-box form button.btn span:hover {
+  background-color: #3d8bff;
+  border-radius: 50%;
+  color: white;
+}
+/* .container-fluid section div.container div.row div.col-9 div.card {
+  position: relative;
+  bottom: 0;
+  height: 100%;
+} */
+
+.container-fluid
+  section
+  div.container
+  div.row
+  div.col-9
+  div.card
+  div.chat-display {
+  /* position: fixed;
+  top: 70px;
+  bottom: 0;
+  width: 60rem; */
+}
+
+/* message chat list  */
+/* .chat-view {
+  max-width: 400px;
+  margin: 20px auto;
+} */
+.message {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.sent {
+  background-color: #3d8bff;
+  color: #fff;
+  width: auto;
+  border-radius: 10px 10px 0 10px;
+  margin-left: auto;
+}
+.received {
+  background-color: #86b6ff;
+  color: #fff;
+  border-radius: 10px 10px 10px 0;
+  margin-right: auto;
+}
+
+.menu-button:hover {
+  color: #0d6efd;
+}
+
+div.container-fluid header nav.navbar div.container div.d-flex a.nav-link {
+  padding: 5px;
+}
+
+div.container-fluid header nav.navbar div.container div.d-flex a.nav-link span {
+  padding: 5px;
+}
+div.container-fluid
+  header
+  nav.navbar
+  div.container
+  div.d-flex
+  a.nav-link
+  span:hover {
+  padding: 5px;
+  border-radius: 50%;
+  background: #0d6efd;
+  color: white;
+}

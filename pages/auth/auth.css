@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffff;
+}
+/* Header */
+div.container-fluid header nav.navbar div.container div.d-flex a.nav-link {
+  padding: 5px 10px 5px;
+}
+div.container-fluid
+  header
+  nav.navbar
+  div.container
+  div.d-flex
+  a.nav-link:hover {
+  border-bottom: 2px solid #0d6efd;
+}
+
+div.container-fluid header nav.navbar div.container div.d-flex a.active {
+  border-bottom: 2px solid #0d6efd;
+}
